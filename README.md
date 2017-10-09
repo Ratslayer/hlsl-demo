@@ -6,6 +6,7 @@ A lot was cut for time, given that I assumed to have only 2 weeks to do this, bu
 - .obj loader instead of those cubes
 - Spot shadows that have a circular shape
 - Post processing effects, such as Bloom and Ambient Occlusion
+
 I will continue working on this project at a slower pace, as it seems like a nice little demo.
 
 To navigate the demo from the branch, run DirectXDemo.exe. 
