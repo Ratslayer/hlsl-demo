@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{ccbde690-05d9-4bb1-9e7b-c5b04731bc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Foundation">
+      <UniqueIdentifier>{0672319b-7573-4745-8e49-2faac3695fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DirectX">
+      <UniqueIdentifier>{028f7805-53d5-49c1-bda2-a0958530698a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DirectX\Graphics">
+      <UniqueIdentifier>{ca78b9f5-c0f2-4785-b977-88a9d9a18666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DirectX\Graphics\Meshes">
+      <UniqueIdentifier>{e49f696c-ad65-44c5-8729-72effd33ee86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DirectX\Graphics\Textures">
+      <UniqueIdentifier>{eaec816b-f517-49f0-b3e7-9dafaa06f1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DirectX\Graphics\Textures\RenderTargets">
+      <UniqueIdentifier>{b94f5891-9df1-4aa4-aea8-fc9484635708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DirectX\Graphics\Effects">
+      <UniqueIdentifier>{57276fab-ba76-44da-b657-87c75386d34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{cfab88e0-cd7f-4bf5-8b21-6cd85e5d8208}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DxShader.cpp">
+      <Filter>Classes\DirectX\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="DxVertexShader.cpp">
+      <Filter>Classes\DirectX\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="DxEffect.cpp">
+      <Filter>Classes\DirectX\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="DxPixelShader.cpp">
+      <Filter>Classes\DirectX\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="DxWindow.cpp">
+      <Filter>Classes\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="DxException.cpp">
+      <Filter>Classes\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="DxTexture.cpp">
+      <Filter>Classes\DirectX\Graphics\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="DxDepthStencil.cpp">
+      <Filter>Classes\DirectX\Graphics\Textures\RenderTargets</Filter>
+    </ClCompile>
+    <ClCompile Include="DxRenderTarget.cpp">
+      <Filter>Classes\DirectX\Graphics\Textures\RenderTargets</Filter>
+    </ClCompile>
+    <ClCompile Include="DxRenderTargetCollection.cpp">
+      <Filter>Classes\DirectX\Graphics\Textures\RenderTargets</Filter>
+    </ClCompile>
+    <ClCompile Include="DxMesh.cpp">
+      <Filter>Classes\DirectX\Graphics\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="DxCube.cpp">
+      <Filter>Classes\DirectX\Graphics\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="DxInputManager.cpp">
+      <Filter>Classes\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="DxMaterial.cpp">
+      <Filter>Classes\DirectX\Graphics\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="DxModel.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DxCamera.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DxObject.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DxTime.cpp">
+      <Filter>Classes\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Classes\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Classes\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DxLight.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DxDoubleRenderTarget.cpp">
+      <Filter>Classes\DirectX\Graphics\Textures\RenderTargets</Filter>
+    </ClCompile>
+    <ClCompile Include="DxConstants.cpp">
+      <Filter>Classes\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="DxRenderer.cpp">
+      <Filter>Classes\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DxSamplerState.cpp">
+      <Filter>Classes\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DxRasterizerState.cpp">
+      <Filter>Classes\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DxDevice.cpp">
+      <Filter>Classes\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DxConstantBuffer.cpp">
+      <Filter>Classes\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DxScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DxSceneFactory.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="DxShader.h">
+      <Filter>Classes\DirectX\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DxVertexShader.h">
+      <Filter>Classes\DirectX\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DxEffect.h">
+      <Filter>Classes\DirectX\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DxPixelShader.h">
+      <Filter>Classes\DirectX\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DxWindow.h">
+      <Filter>Classes\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="DxException.h">
+      <Filter>Classes\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="DxTexture.h">
+      <Filter>Classes\DirectX\Graphics\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="DxDepthStencil.h">
+      <Filter>Classes\DirectX\Graphics\Textures\RenderTargets</Filter>
+    </ClInclude>
+    <ClInclude Include="DxRenderTarget.h">
+      <Filter>Classes\DirectX\Graphics\Textures\RenderTargets</Filter>
+    </ClInclude>
+    <ClInclude Include="DxRenderTargetCollection.h">
+      <Filter>Classes\DirectX\Graphics\Textures\RenderTargets</Filter>
+    </ClInclude>
+    <ClInclude Include="DxMesh.h">
+      <Filter>Classes\DirectX\Graphics\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="DxCube.h">
+      <Filter>Classes\DirectX\Graphics\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="DxInputManager.h">
+      <Filter>Classes\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="DxMaterial.h">
+      <Filter>Classes\DirectX\Graphics\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="DxModel.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DxCamera.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DxObject.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DxTime.h">
+      <Filter>Classes\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Classes\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Classes\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Classes\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="DxLight.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureFunctions.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DxDoubleRenderTarget.h">
+      <Filter>Classes\DirectX\Graphics\Textures\RenderTargets</Filter>
+    </ClInclude>
+    <ClInclude Include="DxConstants.h">
+      <Filter>Classes\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="DxRenderer.h">
+      <Filter>Classes\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DxSamplerState.h">
+      <Filter>Classes\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DxRasterizerState.h">
+      <Filter>Classes\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DxDevice.h">
+      <Filter>Classes\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DxConstantBuffer.h">
+      <Filter>Classes\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DxScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DxSceneFactory.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="SceneEffect.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="QuadVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="2DDrawEffect.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexInput.h">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DrawDepth.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="LightEffect.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="LightingMergeEffect.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="seafloor.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rocks_diffuse.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
